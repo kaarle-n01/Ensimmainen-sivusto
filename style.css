@@ -17,7 +17,23 @@
   bottom: 1.25rem;
   max-width: 550px;
   padding-right: 1.5rem;
+  font-style: oblique;
+  font-size: 50px;
+
 }
+
+.masthead h2 {
+  color: whitesmoke;
+  position: absolute;
+  left: 1.0rem;
+  bottom: 0rem;
+  max-width: 550px;
+  padding-right: 1.5em;
+  font-style: oblique;
+  font-size: 30px;
+  
+}
+
 
 .color-overlay {
   position: absolute;
@@ -25,6 +41,72 @@
   width: 100%;
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,0.6587009803921569) 0%, rgba(124,123,123,0) 48%);
+
+}
+
+.masthead .fa-instagram {
+  position: absolute;
+  right: 1.0rem;
+  top: 1.5rem;
+  max-width: 400px;
+
+}
+
+.masthead .fa-linkedin {
+  position: absolute;
+  right: 6.0rem;
+  top: 1.5rem;
+  max-width: 400px;
+
+}
+
+.masthead .fa-facebook {
+  position: absolute;
+  right: 1.0rem;
+  top: 6.0rem;
+  max-width: 400px;
+
+}
+
+.masthead .fa-snapchat-ghost {
+position: absolute;
+right: 6.0rem;
+top: 6.0rem;
+max-width: 400px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
