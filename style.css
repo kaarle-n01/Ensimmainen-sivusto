@@ -193,3 +193,9 @@ max-width: 400px;
     background: #1abc9c;
     color: white;
   }
+
+  a {
+    font-style: oblique;
+    color: black;
+
+  }

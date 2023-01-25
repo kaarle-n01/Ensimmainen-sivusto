@@ -1,0 +1,48 @@
+.masthead {
+    min-height: 60vh;
+    position: relative;
+    background-size: cover;
+  
+  }
+  
+  .masthead .container {
+    overflow: hidden;
+  
+  }
+
+  .masthead a {
+    font-size: 50px;
+    font-style: oblique;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.5rem;
+    color: whitesmoke;
+    
+  }
+
+.masthead form {
+    font-style: oblique;
+    font-size: x-large;
+    position: absolute;
+    bottom: 5rem;
+    left: 1.5rem;
+    color: whitesmoke;
+
+}
+
+.color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6587009803921569) 0%, rgba(124,123,123,0) 48%);
+  
+  }
+  
+body {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-size: cover;
+    padding-top: 1rem;
+}
+
